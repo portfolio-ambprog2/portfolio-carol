@@ -1,0 +1,192 @@
+
+* {
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: 'Arial', sans-serif;
+     line-height: 35px;
+
+ }
+
+ h2 {
+    text-align: center;
+ }
+ 
+ .principal 
+ {
+     background-color: black;
+     padding: 15px;
+     position: fixed;
+     width: 98%;
+     top: 0;
+     left: 0;
+     z-index:1000;
+ }
+ 
+ .pagprincipal
+  {
+     height: 100vh;
+     background: url('fundo.png');
+     background-repeat: no-repeat;
+     background-position:center;
+     background-size: contain;
+     padding: 0 20px;
+     position: relative;
+ }
+ .menu 
+ {
+     position: relative;
+ }
+ 
+ .nome 
+ {
+     float: left;
+     color: rgb(182, 216, 254);
+     font-weight: bold;
+ }
+ 
+ .ancoras 
+ {
+     list-style: none;
+     float: right;
+     cursor:pointer
+ }
+ 
+ .ancoras li
+  {
+     display: inline;
+     margin-left: 20px;
+ }
+ 
+ .ancoras a 
+ {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ .ancoras a:hover
+  {
+     color: #92e0ff;
+ }
+ 
+
+ .sobremim
+  {
+     text-align: center;
+     padding: 10px 70px, 50px, 50px;
+     color: black;
+     
+ }
+
+ section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+
+ .escolaridade {
+     text-align: center;
+ }
+ 
+ .cursos {
+     display: inline-block;
+     background-color: white;
+     padding: 30px;
+     margin: 30px;
+     width: 40%;
+     box-shadow: 5px 4px 8px rgb(182, 216, 254);
+     vertical-align: top;
+ }
+
+.dados {
+    background-color: #f0f8ff;
+    padding: 10px;
+    margin: 50px auto;
+    margin-top: 100px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(182, 216, 254, 0.6);
+}
+
+th {
+    text-align: left;
+    font-size: 18px;
+    padding: 10px;
+    color: black;
+    border-bottom: 1px solid #c5d3e8;
+}
+
+td a {
+    text-decoration: none;
+    color: black;
+}
+
+
+td a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+th[colspan="3"] {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgb(182, 216, 254);
+}
+
+button 
+{
+    background-color:white;
+    color: black;
+    padding: 10px 20px;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+.link{
+    color:black
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  div.galeria {
+    margin: 5px;
+    border: 1px solid white;
+    box-shadow: 5px 8px 10px lightblue;
+    float: right;
+  }
+  
+  div.galeria:hover {
+    border: 1px solid lightblue;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+
+#rodape {
+     background-color: lightblue;
+     color: black;
+     text-align: center;
+     padding: 20px;
+     bottom: 0;
+     width: 100%;
+ }
+ 
